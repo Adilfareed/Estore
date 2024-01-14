@@ -1,0 +1,60 @@
+.navebar {
+  display: flex;
+
+  padding: 16px;
+  justify-content: space-around;
+  box-shadow: 0px 1px 3px -2px black;
+  height: auto;
+}
+.site {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.site p {
+    font-size: x-large;
+  font-family: serif;
+  font-size: large;
+  font-weight: bolder;
+}
+.mid {
+  display: flex;
+
+  gap: 50px;
+  list-style: none;
+}
+.mid li {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.cart-section {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+  margin: 10px;
+}
+.cart-section button {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 70px;
+  cursor: pointer;
+}
+.cart-section button:active {
+  background-color: rgb(13, 16, 16);
+}
+.cart-count {
+  display: flex;
+  height: 20px;
+  width: 20px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -15px;
+  margin-left: -35px;
+  border-radius: 10px;
+  font-size: 14px;
+  background: red;
+  color: white;
+}
