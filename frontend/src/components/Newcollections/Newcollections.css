@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh;
+
 }
 .new_collection h1 {
   color: #171717;
@@ -16,7 +16,12 @@
   background: #252525;
 }
 .new-collection-item {
- 
-
-  display: flex;
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px;
+    margin-bottom: 20px;
+  
 }

@@ -1,0 +1,46 @@
+.newslater{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(238, 222, 238);
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+.text-div h1{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.text-div p{
+    text-align: center;
+}
+.form-div{
+  margin-bottom: 30px;
+   gap: 20px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.email{
+    background-color: rgb(238, 222, 238);
+    width: 30%;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+
+    
+}
+.subscribe{
+    background-color: black;  
+    color: white;  
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    width: 10%;
+    
+}
