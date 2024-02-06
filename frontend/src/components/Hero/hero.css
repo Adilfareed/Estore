@@ -1,0 +1,35 @@
+.hero {
+
+  display: flex;
+  width: 100%;
+  background-color: rgb(238, 222, 238);
+  flex-wrap: wrap;
+}
+.left {
+    
+  width: 50%;
+  display: flex;
+  gap: px;
+  justify-content: center;
+  align-items: center;
+ margin-bottom: 300px;
+}
+.right {
+ 
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left p {
+  gap: 20px;
+  font-size: xx-large;
+}
+.hand {
+  height: 60px;
+}
+.col_button {
+  background-color: rgb(135, 18, 18);
+  height: 50px;
+  width: 200px;
+}
