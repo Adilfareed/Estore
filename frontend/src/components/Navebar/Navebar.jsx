@@ -1,6 +1,6 @@
 import React from "react";
 import "./navebar.css";
-import logo from "../Assets/logo.png"
+import logo from "../Assets/A2 logo.jpg"
 import cart from "../Assets/cart_icon.png"
 import { Link } from "react-router-dom";
 
@@ -17,8 +17,8 @@ const navebar = () => {
              <li> <Link style={{textDecoration  : 'none'}}to='/'>Shop</Link></li>
             
             <li> <Link style={{textDecoration  : 'none'}} to='/catagory'>Mens</Link></li>
-            <li> <Link style={{textDecoration  : 'none'}} to= '/catagory'>womens</Link></li>
-            <li> <Link  style={{textDecoration  : 'none'}} to='/catagory'>KIds</Link></li>
+            <li> <Link style={{textDecoration  : 'none'}} to= '/catagory'>Womens</Link></li>
+            <li> <Link  style={{textDecoration  : 'none'}} to='/catagory'>Kids</Link></li>
 
           </ul>
         </div>

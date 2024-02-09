@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerimg {
+  display: flex;
+  
+}
+.footerimg img{
+ width: 60px;
+ height: 60px;
+}
+.footerimg p {
+  font-size: 30px;
+  font-weight: 450;
+}
+.footer-links ul {
+  display: flex;
+  gap: 20px;
+}
+.footer-links li {
+  gap: 20px;
+  list-style: none;
+  flex-direction: row;
+  font-size: 20xp;
+  font-weight: 600;
+  cursor: pointer;
+}
+.social-icons {
+    display: flex;
+     gap: 30px;
+   
+}
+.copyright{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

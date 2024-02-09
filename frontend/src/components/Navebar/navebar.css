@@ -17,6 +17,10 @@
   font-size: large;
   font-weight: bolder;
 }
+.site img{
+  width: 40px;
+  height: 40px;
+}
 .mid {
   display: flex;
 
@@ -31,6 +35,7 @@
   gap: 5px;
   cursor: pointer;
   color: black;
+  font-weight: 600;
   
 }
 .mid li :hover{
