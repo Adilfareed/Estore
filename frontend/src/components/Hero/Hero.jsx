@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero.css";
 import hand from "../Assets/hand_icon.png";
-import heroimg from "../Assets/hero_image.png";
+import heroimg from "../Assets/model1.png";
 import { Button } from "antd";
 import { ArrowRightOutlined } from "@ant-design/icons";
 const Hero = () => {

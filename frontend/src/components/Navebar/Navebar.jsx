@@ -16,9 +16,9 @@ const navebar = () => {
           <ul className="mid">
              <li> <Link style={{textDecoration  : 'none'}}to='/'>Shop</Link></li>
             
-            <li> <Link style={{textDecoration  : 'none'}} to='/catagory'>Mens</Link></li>
-            <li> <Link style={{textDecoration  : 'none'}} to= '/catagory'>Womens</Link></li>
-            <li> <Link  style={{textDecoration  : 'none'}} to='/catagory'>Kids</Link></li>
+            <li> <Link style={{textDecoration  : 'none'}} to='/mens'>Mens</Link></li>
+            <li> <Link style={{textDecoration  : 'none'}} to= '/womens'>Womens</Link></li>
+            <li> <Link  style={{textDecoration  : 'none'}} to='/kids'>Kids</Link></li>
 
           </ul>
         </div>

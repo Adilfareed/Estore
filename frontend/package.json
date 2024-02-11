@@ -21,6 +21,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "overrides": {
+    "@svgr/webpack": "$@svgr/webpack"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -38,5 +41,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+    
+    
   }
 }
