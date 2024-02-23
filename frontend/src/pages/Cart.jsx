@@ -1,9 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Cart = () => {
+  const[count,Setcount]= useState(0);
+  const increment = ()=>{
+    Setcount(count+1);
+    console.log(`count${count+1}`);
+
+   };
+
   return (
-    <div>cart</div>
+  <>
+  <p> count:{count}</p>
+   <button onClick={increment} > click</button>
+  
+    </>
+   
   )
+
 }
 
 export default Cart
