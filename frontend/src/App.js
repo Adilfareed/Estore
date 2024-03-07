@@ -35,8 +35,8 @@ function App() {
 
           <Route path="/login" element={<Loginsignup />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/product" element={<Product />} />
-          <Route path=":productId" element={<Product />} />
+          <Route path="/product/:productId" element={<Product />} />
+             <Route path="/product" element={<Product />} />
       
         </Routes>
         <Fotter />
