@@ -37,3 +37,9 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
+@media (max-width:600px) {
+  .footer-links ul {
+  display: none;
+  }
+  
+}

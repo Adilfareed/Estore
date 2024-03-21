@@ -25,3 +25,13 @@
     margin-bottom: 20px;
   
 }
+@media(max-Width:600px){
+  .new_collection h1{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .new_collection {
+    width: 100%;
+  }
+
+}

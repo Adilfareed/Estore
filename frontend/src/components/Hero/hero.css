@@ -36,3 +36,29 @@
   height: 50px;
   width: 200px;
 }
+@media(max-width:600px){
+  .hero {
+   display: flex;
+   flex-flow: column-reverse;
+
+  }
+  .left{
+    width: 100%;
+  margin: 10px;
+
+height: 90%;
+gap: 10px;
+  }
+  .left h1{
+    font-size: larger;
+    font-weight: 600;
+    font-style: bold;
+  }
+  .right{
+    width: 100%;
+  
+    
+  }
+  
+  
+}

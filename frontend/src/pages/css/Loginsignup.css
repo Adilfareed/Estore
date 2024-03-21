@@ -1,49 +1,67 @@
-.signup-main{
+.signup-main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(236, 230, 221);
+  width: 30%;
+  margin-top: 30px;
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+  .signup-main {
+    width: 80%; /* Adjust width for smaller screens */
+  }
+  .Login{
+    width: 70%;
+  }
+  .signup h2{
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(236, 230, 221);
-    width: 30%;
-    margin-top: 30px;
-    border-radius: 40px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+}
 
-   
+.signup {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
 }
-.signup{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.signup h2 {
+  color: brown;
+  margin: auto;
+  margin-top: 30px;
 }
-.signup h2{
-   color: brown;
-}
-.signup input{
-    height: 30px;
-    border-radius: 10px;
-    border: none;
-    text-align: center;
-}
-.continue-btn{
-    height: 30px;
-    background-color: rgb(179, 46, 46);
-    border-radius: 10px;
-    border: none;
-    text-align: center;
-    font-weight: 600;
-    cursor: pointer;
-}
-.Login{
-    font-size: 15px;
-    font-weight: 400;
 
+.signup input {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
 }
-.Login span{
-    font-size: 20px;
-    color: rgb(59, 59, 215);
-    margin: 5px;
-    cursor: pointer;
-    
+
+.continue-btn {
+  height: 30px;
+  background-color: rgb(179, 46, 46);
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Login {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.Login span {
+  font-size: 20px;
+  color: rgb(59, 59, 215);
+  margin: 5px;
+  cursor: pointer;
 }

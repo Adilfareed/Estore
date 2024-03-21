@@ -1,33 +1,86 @@
 .navebar {
   display: flex;
-
   padding: 16px;
   justify-content: space-around;
   box-shadow: 0px 1px 3px -2px black;
-  height: auto;
 }
+
 .site {
   display: flex;
   gap: 10px;
   align-items: center;
 }
+
 .site p {
-    font-size: x-large;
+  font-size: x-large;
   font-family: serif;
   font-size: large;
   font-weight: bolder;
 }
-.site img{
+
+.site img {
   width: 40px;
   height: 40px;
 }
+
 .mid {
   display: flex;
-
   gap: 50px;
   list-style: none;
-  
 }
+.button{
+ background-color: brown;
+color: white;
+}
+
+@media (max-width: 600px) {
+  .mid {
+    display: none;
+  }
+  .hide-navebar {
+    width: 30px;
+    height: 30px;
+  }
+  .navebar {
+    height: 50px;
+    padding: 5px;
+    width: 100%; /* Adjust width to cover whole screen on mid-sized mobile devices */
+  }
+  .cartimg {
+    width: 25px;
+    height: 25px;
+  }
+  .cart-count {
+    height: 10px;
+    width: 10px;
+  }
+  .mid-mobile {
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+    font-weight: 600;
+  
+    margin-bottom: 30px;
+    position: absolute;
+    background-color: rgb(241, 239, 241);
+    margin-bottom: 10px;
+    padding: 5px;
+   
+    text-align: center;
+  
+    width: 95%;
+  right: 1%;
+  left: 1%;
+  top: 5%;
+  
+  }
+  .mid-mobile li{
+    font-size: 20px;
+    color: black;
+    border-bottom: 1px solid rgb(166, 164, 164);
+  }
+}
+
 .mid li {
   display: inline;
   flex-direction: column;
@@ -36,29 +89,32 @@
   cursor: pointer;
   color: black;
   font-weight: 600;
-  
 }
-.mid li :hover{
+
+.mid li:hover {
   color: black;
   font-size: larger;
-  
 }
+
+.mid button {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 70px;
+  cursor: pointer;
+  height: 100%;
+}
+
 .cart-section {
   display: flex;
   gap: 15px;
   height: 100%;
   margin: 10px;
 }
-.cart-section button {
-  border: 1px solid gray;
-  border-radius: 10px;
-  width: 70px;
-  cursor: pointer;
-  height: 80%;
-}
-.cart-section button:active {
+
+.mid button:active {
   background-color: rgb(13, 16, 16);
 }
+
 .cart-count {
   display: flex;
   height: 20px;
@@ -71,4 +127,12 @@
   font-size: 14px;
   background: red;
   color: white;
+}
+
+@media (min-width: 600px) {
+  .hide-navebar {
+    display: none;
+    width: 50px;
+    height: 50px;
+  }
 }

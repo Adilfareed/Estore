@@ -16,6 +16,7 @@
 }
 .text-div p{
     text-align: center;
+    margin: 10px;
 }
 .form-div{
   margin-bottom: 30px;
@@ -43,4 +44,29 @@
     text-align: center;
     width: 10%;
     
+}
+@media (max-width:600px) {
+
+    .text-div h1{
+        font-size: 25px;
+        font-weight: 600;
+        margin: 10px;
+    }
+    .newslater{
+        border-radius: 10px;
+        width: 95%;
+    }
+    .subscribe{
+        background-color: black;  
+        color: white;  
+        height: 30px;
+        border-radius: 30px;
+        text-align: center;
+        width: 30%;}
+        .email{
+            background-color: rgb(238, 222, 238);
+            width: 50%;
+            height: 30px;
+            border-radius: 30px;
+            text-align: center;}
 }
